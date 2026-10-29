@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Домодедовское авиапредприятие — IVAO VA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <!-- Шапка -->
+  <div class="brand">
+    <div class="logo-icon">✈</div>
+    <h1>
+      Домодедовское авиапредприятие
+      <span class="sub">IVAO Virtual Airline</span>
+    </h1>
+    <div class="badge">IVAO VA</div>
+  </div>
+
+  <!-- Навигация -->
+  <nav class="nav-tabs">
+    <a href="#home" data-page="home">Главная</a>
+    <a href="#leadership" data-page="leadership">Руководство</a>
+    <a href="#training" data-page="training">Обучение</a>
+    <a href="#fleet" data-page="fleet">Авиапарк</a>
+  </nav>
+
+  <!-- Главная -->
+  <section id="page-home" class="page active">
+    <div class="hero">
+      <h2>Добро пожаловать в <span class="accent">Домодедовское<br>авиапредприятие</span></h2>
+      <p>Приветствую на сервере! Мы производим полёты по всей России в сети IVAO в интересах ГТЛК и S7 Airlines. Наши корни идут прямиком из Новосибирска и протягиваются до самого Калининграда.</p>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="num">5</span><span class="label">типов ВС</span></div>
+        <div class="stat-item"><span class="num">3</span><span class="label">инструктора</span></div>
+        <div class="stat-item"><span class="num">5</span><span class="label">хабов</span></div>
+      </div>
+    </div>
+
+    <!-- Хабы -->
+    <div class="info-block">
+      <h3>🛬 Наши хабы</h3>
+      <div class="hub-list">
+        <div class="hub-item"><span class="code">UUDD</span> DME · Domodedovo</div>
+        <div class="hub-item"><span class="code">UMKK</span> KGD · Khrabrovo</div>
+        <div class="hub-item"><span class="code">USCC</span> CEK · Kurchatov</div>
+        <div class="hub-item"><span class="code">UNNT</span> OVB · Tolmachevo</div>
+        <div class="hub-item">
+          <span class="code">EDDL</span> DUS · Düsseldorf
+          <span class="note">(под вопросом)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Планы -->
+    <div class="info-block">
+      <h3>📅 Планы развития</h3>
+      <ul class="plans-list">
+        <li><span class="date">30.09.2026</span> Расширение в сторону Юго-Востока</li>
+        <li><span class="date">02.10.2026</span> Расширение флота предприятия</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Руководство -->
+  <section id="page-leadership" class="page">
+    <div class="section-title">Администрация</div>
+    <div class="card-grid">
+      <div class="member-card">
+        <div class="photo-placeholder">👤</div>
+        <div class="member-name">Лев Гнеушев</div>
+        <div class="member-role">Основатель</div>
+        <div class="member-desc">Отвечает за рейсы, нумерацию и ливреи</div>
+      </div>
+      <div class="member-card">
+        <div class="photo-placeholder">👤</div>
+        <div class="member-name">Головин Максим Игоревич</div>
+        <div class="member-role">Сооснователь</div>
+        <div class="member-desc">Разработка кода, бот и базы данных</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Обучение -->
+  <section id="page-training" class="page">
+    <div class="section-title">Учебный центр</div>
+    <div class="card-grid">
+      <div class="member-card">
+        <div class="photo-placeholder">👤</div>
+        <div class="member-name">Лев Гнеушев</div>
+        <div class="badge-row">
+          <span class="badge">Инструктор</span>
+          <span class="badge">Экзаменатор</span>
+        </div>
+      </div>
+      <div class="member-card">
+        <div class="photo-placeholder">👤</div>
+        <div class="member-name">Головин Максим Игоревич</div>
+        <div class="badge-row">
+          <span class="badge">Инструктор</span>
+          <span class="badge">Экзаменатор</span>
+        </div>
+      </div>
+      <div class="member-card">
+        <div class="photo-placeholder">👤</div>
+        <div class="member-name">Данил Хомяк</div>
+        <div class="badge-row">
+          <span class="badge">Инструктор</span>
+          <span class="badge">Экзаменатор</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Авиапарк -->
+  <section id="page-fleet" class="page">
+    <div class="section-title">Авиапарк</div>
+
+    <div class="livery-note">
+      <span class="icon">🎨</span>
+      <div>
+        В IVAO пока летаем в ливрее <strong>S7 Airlines</strong>. Однако у нас есть и <strong>собственная ливрея</strong> — она появится на самолётах чуть позже.
+      </div>
+    </div>
+
+    <div class="card-grid">
+      <div class="fleet-card">
+        <div class="photo-placeholder">✈</div>
+        <div class="fleet-name">Airbus A320</div>
+        <div class="fleet-desc">Узкофюзеляжный</div>
+      </div>
+      <div class="fleet-card">
+        <div class="photo-placeholder">✈</div>
+        <div class="fleet-name">Airbus A20N</div>
+        <div class="fleet-desc">A320neo · Узкофюзеляжный</div>
+      </div>
+      <div class="fleet-card">
+        <div class="photo-placeholder">✈</div>
+        <div class="fleet-name">Airbus A321</div>
+        <div class="fleet-desc">Узкофюзеляжный</div>
+      </div>
+      <div class="fleet-card">
+        <div class="photo-placeholder">✈</div>
+        <div class="fleet-name">Boeing 737-800</div>
+        <div class="fleet-desc">Узкофюзеляжный</div>
+      </div>
+      <div class="fleet-card">
+        <div class="photo-placeholder">✈</div>
+        <div class="fleet-name">Boeing 737-900</div>
+        <div class="fleet-desc">Узкофюзеляжный</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Компактный подвал -->
+<footer class="footer">
+  <div class="footer-contacts">
+    <a class="contact-item" href="https://uudd-va.onrender.com" target="_blank" rel="noopener">
+      <span class="ico">🌐</span> uudd-va.onrender.com
+    </a>
+    <a class="contact-item" href="https://uudd-va.yhub.net" target="_blank" rel="noopener">
+      <span class="ico">🌐</span> uudd-va.yhub.net
+    </a>
+    <a class="contact-item" href="mailto:batareyka887@gmail.com">
+      <span class="ico">📧</span> batareyka887@gmail.com
+    </a>
+    <a class="contact-item" href="https://discord.com/" target="_blank" rel="noopener">
+      <span class="ico">💬</span> Разработчик: @ifastek
+    </a>
+    <a class="contact-item" href="https://discord.com/" target="_blank" rel="noopener">
+      <span class="ico">👑</span> CEO: @crabik1220
+    </a>
+  </div>
+  <div class="footer-meta">
+    <span>© 2026 Домодедовское авиапредприятие</span>
+    <span class="ivao-tag">IVAO VA</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
